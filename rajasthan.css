@@ -1,0 +1,112 @@
+h1 {
+    left: 40px;
+    font-family: cursive;
+    font-size: 4 rem;
+    color: #1a1b1d;
+    text-align: right;
+    position:absolute;
+    bottom: 100px;
+    top: 10px;
+    
+    
+    
+  }
+  
+  body {
+     height: 100%;
+     margin: 0;
+     position: relative;
+     background-image: url("https://img.myloview.com/posters/abstract-red-white-curve-wave-background-design-template-vector-700-199899812.jpg");
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+     background-position: center;
+  }
+  
+  
+  img{
+      height:500px;
+      width:550px;
+      border-radius: 15px;
+      position: relative;
+      bottom: 100px;
+  
+  }
+  .container{
+      margin-left: 20px;
+     font-size: 25px;
+     
+     
+     }
+  .card{
+      height:200px;
+      width:450px;
+      margin-left: 0%;
+      box-shadow: 5px 5px 20px black;
+  }
+   body{
+      display: flex;
+      justify-content:left;
+      height:90vh;
+      align-items:center ;
+      margin: 40px;
+      
+   }
+  
+   
+   .intro{
+     height:500px;
+     width:450px;
+     left: 700px;
+     padding:6px;
+      position: absolute;
+     color:rgb(30, 30, 30);
+     bottom:205px;
+     transition: .5s;
+     margin-left: 20px;
+     
+     }
+     
+    
+   
+      p{
+      font: size 10px;
+      margin:10px;
+      visibility: hidden;
+      color: rgb(7, 7, 7);
+      opacity: 1;
+     transition: opacity 1s ease-in-out;
+   }
+
+   p.visible {
+   opacity: 1;
+   visibility: visible;
+}
+   span{
+      font-weight: bold;
+  
+   }
+   .card:hover{
+      cursor:pointer;
+  
+   }
+   .card:hover .intro{
+      height:280px;
+      bottom:300px;
+      width: 450px;
+      
+      opacity:1.0;
+   }
+   .card:hover p{
+      opacity:0.8;
+      visibility:visible;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      width: 620px;
+      font-size: 35px;
+     font-style: italic;
+   }
+  
+   .card:hover .img{
+      transform:scale(-1.1) rotate(-3deg)
+  
+   }

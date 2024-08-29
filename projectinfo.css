@@ -1,0 +1,59 @@
+h1{
+    background: rgb(0, 0, 0);
+    color:azure;
+    padding-bottom:60px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 50px
+}
+span{
+    color: orangered;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 3px solid orangered;
+}
+p{
+    font-size:16px;
+    margin-top: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h3{
+    font-size: 20px;
+    margin-bottom:5px;
+
+}
+.back{
+    width:345px;
+    display:flex;
+    gap:2em;
+    
+    
+    
+
+}
+.back-btn{
+    padding: 15px 28px;
+    background-color: orangered;
+    color:rgb(0, 0, 0);
+    border:2px solid transparent;
+    border-radius: 8px;
+    font-size:18px;
+    letter-spacing:1px;
+    font-weight:600;
+    transition: 0.3s ease;
+    cursor: pointer;
+    position: absolute; /* Absolute positioning for the button */
+    right: 20px; /* Position from the right */
+    top: 39px; /* Position from the top */
+    
+   
+    
+}
+.back-btn:hover{
+    background-color:rgb(255, 255, 255) ;
+    color:black;
+    border:2px solid black;
+}
+
+
+    
